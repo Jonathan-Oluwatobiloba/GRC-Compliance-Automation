@@ -60,17 +60,12 @@ The project includes demonstration vendor profiles, generated audit outputs, com
 
 
 
-\## Project Structure
+## Project Structure
 
-
-
-\- `01\_TPRM\_Engine/` — vendor risk scoring engine and vendor profiles.
-
-\- `02\_Compliance\_Auditor/` — compliance and backup audit scripts and test data.
-
-\- `03\_AI\_Governance/` — AI governance and privacy policy documents.
-
-\- `04\_Validation\_Evidence/` — audit exports, validation results, and evidence.
+- `01_TPRM_Engine/` — vendor risk scoring engine and vendor profiles.
+- `02_Compliance_Auditor/` — compliance and backup audit scripts and test data.
+- `03_AI_Governance/` — AI governance and privacy policy documents.
+- `04_Validation_Evidence/` — audit exports, validation results, and evidence.
 
 
 
