@@ -1,0 +1,102 @@
+# BCDR 3-2-1 Backup and RPO Compliance Automation
+## Validation Evidence Summary
+
+**Project:** Continuous Compliance-as-Code & AI Regulatory Governance  
+**Control Area:** Business Continuity and Disaster Recovery (BCDR)  
+**Validation Date:** 17 November 2026  
+**Validation Type:** Functional test using simulated backup manifest records
+
+### 1. Objective
+
+To develop and test an automated compliance auditor that evaluates backup manifests against the 3-2-1 backup rule and compares actual Recovery Point Objectives (RPOs) against the proposed planning targets documented in Section 4.3 of the Enterprise GRC Governance framework.
+
+### 2. Automated Compliance Checks
+
+The Python compliance auditor evaluates:
+
+1. At least three backup copies.
+2. At least two different storage types.
+3. At least one offline or immutable backup.
+4. Actual RPO against the applicable Section 4.3 planning target.
+
+### 3. Validation Results
+
+The test processed eight simulated asset records and generated 32 individual compliance findings.
+
+| Result | Number of findings |
+|---|---:|
+| PASS | 29 |
+| FAIL | 3 |
+| REVIEW | 0 |
+| **Total** | **32** |
+
+### 4. Failed Controls Identified
+
+**Finding 1: Customer Database**
+
+- Actual RPO: 20 minutes.
+- Planning target: 15 minutes.
+- Result: FAIL.
+- Recommended remediation: Review backup frequency and recovery procedures to achieve the 15-minute planning target.
+
+**Finding 2: Security Monitoring and Logging**
+
+- Offline or immutable backup: False.
+- Result: FAIL.
+- Recommended remediation: Implement and document an offline, isolated or immutable backup copy.
+
+**Finding 3: Public Website**
+
+- Backup copies: 2.
+- Required minimum: 3.
+- Result: FAIL.
+- Recommended remediation: Establish and document an additional backup copy.
+
+### 5. Technical Implementation
+
+The compliance auditor was developed in Python using:
+
+- CSV for backup manifest input.
+- Python dictionaries for asset data processing.
+- Automated rule evaluation.
+- Timestamped CSV evidence generation.
+- PowerShell for execution and validation.
+
+The auditor successfully processed all eight test records and generated an evidence report containing 32 findings.
+
+### 6. Evidence Generated
+
+**Primary evidence file:**
+
+`BCDR_Backup_Audit_20261117_155121.csv`
+
+**Evidence directory:**
+
+`04_Validation_Evidence`
+
+The CSV report contains:
+
+- Audit timestamp.
+- Asset name.
+- Compliance status.
+- Detailed finding.
+
+### 7. Validation Conclusion
+
+The BCDR compliance automation passed its functional validation.
+
+The test demonstrated that the auditor can automatically evaluate the 3-2-1 backup requirements, compare actual RPO values against the proposed planning targets, identify failed controls and generate a timestamped evidence report.
+
+The three identified failures demonstrate that the auditor can detect simulated non-compliance conditions.
+
+**Important limitation:** The validation used simulated test records. It does not establish actual organisational backup compliance, successful restoration capability or formally approved RPO targets. These require verification against operational backup records, restoration tests and approved Business Impact Analysis documentation.
+
+### 8. Final Status
+
+**Functional validation: PASSED**
+
+**Automated evidence generation: VERIFIED**
+
+**Outstanding simulated findings: 3**
+
+**Next action:** Review and remediate the identified control gaps using actual organisational evidence.

@@ -1,0 +1,15 @@
+
+{
+    "vendor_name": "QuickServe Demonstration Ltd",
+    "soc2_assurance": 4,
+    "encryption": 3,
+    "data_handling_privacy": 5,
+    "incident_response": 2,
+    "identity_access_management": 3,
+    "business_continuity": 3,
+    "subcontractor_management": 3,
+    "legal_regulatory_compliance": 3,
+    "encryption_at_rest": true,
+    "dpa_signed": true,
+    "unapproved_cross_border_transfer": false
+}

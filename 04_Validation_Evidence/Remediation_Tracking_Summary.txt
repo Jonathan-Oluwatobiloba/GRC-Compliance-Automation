@@ -1,0 +1,28 @@
+GRC REMEDIATION TRACKING SUMMARY
+================================
+Total findings: 8
+
+Status breakdown:
+Open: 7
+Under Review: 1
+
+Priority breakdown:
+Critical: 1
+High: 5
+Medium: 1
+Review: 1
+
+Outstanding findings: 8
+Outstanding Critical/High findings: 6
+Overdue findings: 1
+
+Overdue finding details:
+BCDR-002 | Security Monitoring and Logging | Deadline: 2026-11-17
+
+Outstanding Critical/High details:
+BCDR-001 | Customer Database | High | Open
+BCDR-002 | Security Monitoring and Logging | High | Open
+DP-001 | Payment Processing System | Critical | Open
+DP-002 | Employee Records | High | Open
+DP-003 | Cloud Analytics Platform | High | Open
+DP-004 | Cloud Analytics Platform | High | Open

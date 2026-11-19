@@ -1,0 +1,12 @@
+﻿audit_timestamp,system_name,status,finding
+2026-11-19T09:14:55,Customer Database,PASS,PASS: Sensitive data is encrypted at rest and in transit.
+2026-11-19T09:14:55,Customer Database,PASS,PASS: No cross-border data transfer reported.
+2026-11-19T09:14:55,Payment Processing System,FAIL,FAIL: Sensitive data is not encrypted in transit.
+2026-11-19T09:14:55,Payment Processing System,PASS,PASS: Cross-border transfer has documented safeguards and approval.
+2026-11-19T09:14:55,Employee Records,FAIL,FAIL: Sensitive data is not encrypted at rest.
+2026-11-19T09:14:55,Employee Records,PASS,PASS: No cross-border data transfer reported.
+2026-11-19T09:14:55,Cloud Analytics Platform,PASS,PASS: Sensitive data is encrypted at rest and in transit.
+2026-11-19T09:14:55,Cloud Analytics Platform,FAIL,FAIL: Cross-border transfer lacks documented safeguards.
+2026-11-19T09:14:55,Cloud Analytics Platform,FAIL,FAIL: Cross-border transfer lacks documented approval.
+2026-11-19T09:14:55,Public Website,REVIEW,REVIEW: System is not identified as handling sensitive data.
+2026-11-19T09:14:55,Public Website,PASS,PASS: No cross-border data transfer reported.

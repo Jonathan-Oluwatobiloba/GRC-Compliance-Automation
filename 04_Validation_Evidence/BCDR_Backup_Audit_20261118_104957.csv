@@ -1,0 +1,33 @@
+﻿audit_timestamp,asset_name,status,finding
+2026-11-18 10:49:57,Identity and Authentication Services,PASS,PASS: At least 3 backup copies maintained.
+2026-11-18 10:49:57,Identity and Authentication Services,PASS,PASS: At least 2 storage types maintained.
+2026-11-18 10:49:57,Identity and Authentication Services,PASS,PASS: Offline or immutable backup documented.
+2026-11-18 10:49:57,Identity and Authentication Services,PASS,PASS: Actual RPO of 15 minutes meets the 15-minute target.
+2026-11-18 10:49:57,Customer Database,PASS,PASS: At least 3 backup copies maintained.
+2026-11-18 10:49:57,Customer Database,PASS,PASS: At least 2 storage types maintained.
+2026-11-18 10:49:57,Customer Database,PASS,PASS: Offline or immutable backup documented.
+2026-11-18 10:49:57,Customer Database,FAIL,FAIL: Actual RPO of 20 minutes exceeds the 15-minute target.
+2026-11-18 10:49:57,Core Business Applications,PASS,PASS: At least 3 backup copies maintained.
+2026-11-18 10:49:57,Core Business Applications,PASS,PASS: At least 2 storage types maintained.
+2026-11-18 10:49:57,Core Business Applications,PASS,PASS: Offline or immutable backup documented.
+2026-11-18 10:49:57,Core Business Applications,PASS,PASS: Actual RPO of 60 minutes meets the 60-minute target.
+2026-11-18 10:49:57,Email and Communication Systems,PASS,PASS: At least 3 backup copies maintained.
+2026-11-18 10:49:57,Email and Communication Systems,PASS,PASS: At least 2 storage types maintained.
+2026-11-18 10:49:57,Email and Communication Systems,PASS,PASS: Offline or immutable backup documented.
+2026-11-18 10:49:57,Email and Communication Systems,PASS,PASS: Actual RPO of 240 minutes meets the 240-minute target.
+2026-11-18 10:49:57,Financial and Payment Systems,PASS,PASS: At least 3 backup copies maintained.
+2026-11-18 10:49:57,Financial and Payment Systems,PASS,PASS: At least 2 storage types maintained.
+2026-11-18 10:49:57,Financial and Payment Systems,PASS,PASS: Offline or immutable backup documented.
+2026-11-18 10:49:57,Financial and Payment Systems,PASS,PASS: Actual RPO of 15 minutes meets the 15-minute target.
+2026-11-18 10:49:57,File Storage and Document Systems,PASS,PASS: At least 3 backup copies maintained.
+2026-11-18 10:49:57,File Storage and Document Systems,PASS,PASS: At least 2 storage types maintained.
+2026-11-18 10:49:57,File Storage and Document Systems,PASS,PASS: Offline or immutable backup documented.
+2026-11-18 10:49:57,File Storage and Document Systems,PASS,PASS: Actual RPO of 240 minutes meets the 240-minute target.
+2026-11-18 10:49:57,Security Monitoring and Logging,PASS,PASS: At least 3 backup copies maintained.
+2026-11-18 10:49:57,Security Monitoring and Logging,PASS,PASS: At least 2 storage types maintained.
+2026-11-18 10:49:57,Security Monitoring and Logging,FAIL,FAIL: No offline or immutable backup is documented.
+2026-11-18 10:49:57,Security Monitoring and Logging,PASS,PASS: Actual RPO of 60 minutes meets the 60-minute target.
+2026-11-18 10:49:57,Public Website,FAIL,FAIL: Fewer than 3 backup copies are maintained.
+2026-11-18 10:49:57,Public Website,PASS,PASS: At least 2 storage types maintained.
+2026-11-18 10:49:57,Public Website,PASS,PASS: Offline or immutable backup documented.
+2026-11-18 10:49:57,Public Website,PASS,PASS: Actual RPO of 240 minutes meets the 240-minute target.

@@ -1,0 +1,6 @@
+﻿system_name,handles_sensitive_data,encryption_at_rest,encryption_in_transit,cross_border_transfer,transfer_safeguards_documented,transfer_approved
+Customer Database,true,true,true,false,false,false
+Payment Processing System,true,true,false,true,true,true
+Employee Records,true,false,true,false,false,false
+Cloud Analytics Platform,true,true,true,true,false,false
+Public Website,false,false,false,false,false,false

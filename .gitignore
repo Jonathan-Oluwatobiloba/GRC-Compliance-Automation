@@ -1,0 +1,10 @@
+﻿__pycache__/
+*.py[cod]
+*.bak
+*.zip
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+desktop.ini

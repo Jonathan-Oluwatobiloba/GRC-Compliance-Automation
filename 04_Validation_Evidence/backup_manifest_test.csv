@@ -1,0 +1,10 @@
+
+asset_name,backup_copies,storage_types,offline_or_immutable_backup,actual_rpo_minutes
+Identity and Authentication Services,3,2,True,15
+Customer Database,3,2,True,20
+Core Business Applications,3,2,True,60
+Email and Communication Systems,3,2,True,240
+Financial and Payment Systems,3,2,True,15
+File Storage and Document Systems,3,2,True,240
+Security Monitoring and Logging,3,2,False,60
+Public Website,2,2,True,240

@@ -1,0 +1,4 @@
+vendor_name,risk_score,risk_level,decision,critical_overrides,remediation_actions,assessment_timestamp
+SecureCloud Demonstration Ltd,88.0,LOW RISK,APPROVED,None,No automatic remediation actions identified. Continue routine vendor monitoring.,2026-11-18 17:43:49
+DataBridge Demonstration Ltd,84.0,HIGH RISK,REJECTED,Sensitive data is not encrypted at rest.; A signed Data Processing Agreement is missing.,Implement AES-256 encryption at rest for all sensitive data.; Execute and sign a Data Processing Agreement before processing personal data.,2026-11-18 17:43:49
+QuickServe Demonstration Ltd,68.0,MEDIUM RISK,CONDITIONAL APPROVAL,None,Improve incident response procedures and contractual notification timelines.,2026-11-18 17:43:49
